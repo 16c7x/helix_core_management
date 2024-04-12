@@ -25,7 +25,7 @@ class helix_core_management {
     ensure  => file,
     owner   => 'root',
     group   => 'root',
-    mode    => '0744',
+    mode    => '0755',
     content => file('helix_core_management/p4_version.sh'),
   }
 }
