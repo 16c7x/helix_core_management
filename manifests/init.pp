@@ -5,7 +5,6 @@
 # @example
 #   include helix_core_management
 class helix_core_management {
-
   file { '/etc/helix-core-test':
     ensure => directory,
     owner  => 'root',
