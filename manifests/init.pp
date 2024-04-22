@@ -12,7 +12,7 @@ class helix_core_management {
     group  => 'root',
     mode   => '0755',
   }
- 
+
   file { '/etc/helix-core-test/helix-core.conf':
     ensure  => file,
     owner   => 'root',
